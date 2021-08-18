@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 33px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgb(122, 156, 221);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+
+a {
+    color:darkblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+a:hover, button:hover {
+    color: brown;
+    background-color: #1e90ffaa;
+}
+
+a:visited {
+    color: lightskyblue;
+}
+
+main {
+    margin: 0 auto;
+    padding: 80px 50px;
+    text-align: center;
+    background-color: aliceblue;
+    height: 90vh;
+}
+
+main h1 {
+    text-transform: uppercase;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: none;
+}
+
+main li {
+    margin: 20px auto;
+}
+
+main code {
+    font-family: monospace;
+    font-size: smaller;
+}
+
+#trafficLight {
+    margin: 0 auto;
+}
+
+
+button, input {
+    min-width: 500px;
+    padding: 10px;
+    font-size: smaller;
+    margin: 30px 15px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+input::placeholder {
+    color: lightskyblue;
+}
+
+
+footer {
+    margin: 0 auto;
+    padding: 30px 50px;
+}
