@@ -37,6 +37,10 @@ a:visited {
     color: lightskyblue;
 }
 
+a:visited:hover {
+    color: brown;
+}
+
 main {
     margin: 0 auto;
     padding: 80px 50px;
@@ -47,6 +51,11 @@ main {
 
 main h1 {
     text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+main p {
+    margin: 10px 0;
 }
 
 main ul {
@@ -71,7 +80,6 @@ main code {
 
 
 button, input {
-    min-width: 500px;
     padding: 10px;
     font-size: smaller;
     margin: 30px 15px;
@@ -83,6 +91,9 @@ input::placeholder {
     color: lightskyblue;
 }
 
+input:focus {
+    background-color: #1e90ffaa;
+}
 
 footer {
     margin: 0 auto;
