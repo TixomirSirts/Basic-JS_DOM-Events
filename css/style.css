@@ -12,6 +12,7 @@ header {
     margin: 0 auto;
     padding: 50px;
     background-color: rgb(122, 156, 221);
+    min-height: 10vh;
 }
 
 ul {
@@ -41,7 +42,7 @@ main {
     padding: 80px 50px;
     text-align: center;
     background-color: aliceblue;
-    height: 90vh;
+    min-height: 90vh;
 }
 
 main h1 {
